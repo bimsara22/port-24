@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
-import rusl from '../../Images/rusl.jpg'
+import rusl from "../../Images/rusl.jpg";
 
 function Aboutme() {
   return (
@@ -17,12 +17,11 @@ function Aboutme() {
                 want to style. Use our CSS Selector Tester to demonstrate the
                 different selectors.
                 <h3>About me</h3>
-                <h4>About me 34</h4>
+                <h4>About me 34 test test</h4>
               </h4>
             </div>
             <div className="image-container1">
-                <img src={rusl} alt="image" className="image2"></img>
-              
+              <img src={rusl} alt="image" className="image2"></img>
             </div>
           </div>
         </section>
