@@ -16,6 +16,7 @@ function Aboutme() {
                 selectors are used to "find" (or select) the HTML elements you
                 want to style. Use our CSS Selector Tester to demonstrate the
                 different selectors.
+                <h3>About me</h3>
               </h4>
             </div>
             <div className="image-container1">
