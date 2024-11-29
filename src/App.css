@@ -240,6 +240,31 @@
 
 
 
+.skills{
+  display: flex;
+  flex-wrap: wrap;
 
+}
+
+.skill-item{
+  width: calc(25% - 20px);
+  height: 100px;
+  margin: 10px;
+  background-color: #666;
+  border: 1px solid red;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.icon{
+  text-align: center;
+  height: 70%;
+}
+.title-icon{
+  text-align: center;
+  height: 30%;
+}
 
 
