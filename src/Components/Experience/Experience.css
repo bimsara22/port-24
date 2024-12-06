@@ -1,0 +1,67 @@
+
+
+.experience-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 40px 0;
+  }
+  
+  .experience-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: translateY(0);
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards;
+  }
+  
+  .experience-card:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .experience-card:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .card-header {
+    background-color: #2b2d42;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 2px solid #8d99ae;
+    text-align: center;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .company-name {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-body p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .card-body strong {
+    color: #2b2d42;
+  }
+  

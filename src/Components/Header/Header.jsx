@@ -1,17 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
 import sign from "../../Images/signature.png";
+import man from "../../Images/man-image.jpg";
+import "./Header.css";
 
 function Header() {
-
-
-
   return (
     <div className="container-fluid">
       <nav className="navbar navbar-expand-lg navbar-custom">
-        {/* <a className="navbar-brand" href="#">
-         Yasindu Bimsara
-        </a> */}
-
         <div className="image-signature">
           <img src={sign} alt="" className="signature" />
         </div>
@@ -75,14 +70,29 @@ function Header() {
             </a>
           </li>
         </ul>
+
+
+        {/* <div className="image-contain">
+<img src={man} alt="yasindu" className="image-yasindu" />
+</div> */}
+
+
+        <div class="text-container">
+          <h1>
+            <span class="prefix">I'm </span>
+            <div class="message">
+              <div class="word1">Developer</div>
+              <div class="word2">Ui Ux Engineer</div>
+              <div class="word3">Trainer</div>
+              <div class="word4">Software Enginner</div>
+            </div>
+          </h1>
+        </div>
+
+
+    
+
       </div>
-
-
-
-
-
-
-
     </div>
   );
 }

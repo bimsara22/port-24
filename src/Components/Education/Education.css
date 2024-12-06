@@ -1,0 +1,62 @@
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .education-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .education-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 15px;
+    height: 45%;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2b2d42;
+  }
+  
+  .institution-name {
+    font-size: 16px;
+    color: #8d99ae;
+  }
+  
+  .card-body {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .card-body p {
+    margin-bottom: 10px;
+  }
+  
+  .card-body strong {
+    color: #2b2d42;
+  }
+  
+
+  .institution-image{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  h5{
+    height: 50px;
+  }

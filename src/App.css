@@ -7,8 +7,6 @@
   color: white;
 }
 
-
-
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -17,20 +15,17 @@
 }
 
 .card-project {
-  width: calc(
-    25% - 20px
-  ); 
+  width: calc(25% - 20px);
   border: 2px solid grey;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   padding: 10px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .image-container {
   height: 100px;
-  background-color: #f0f0f0; 
 }
 
 .project {
@@ -49,22 +44,15 @@
 
 @media only screen and (max-width: 800px) {
   .card-project {
-    width: calc(
-      50% - 20px
-    ); 
+    width: calc(50% - 20px);
   }
 }
 
 @media only screen and (max-width: 372px) {
   .card-project {
-    width: calc(
-      100% - 20px
-    ); 
+    width: calc(100% - 20px);
   }
 }
-
-
-
 
 .about {
   display: flex;
@@ -132,19 +120,17 @@
   }
 }
 
-
-.image-container{
+.image-container {
   height: 300px;
   display: flex;
   justify-content: center;
 }
 
-.image-contact{
+.image-contact {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
 }
-
 
 /* body{
   background-image: url('./Images/background.png');
@@ -152,29 +138,26 @@
   background-size: cover;
 } */
 
-
 /* Custom styles for the header background */
 .header-bg {
-  background-image: url('./Images/background.png'); /* Replace with the actual image path */
+  background-image: url("./Images/background.png"); /* Replace with the actual image path */
   background-size: cover; /* Ensures the image covers the whole area */
   background-position: center; /* Centers the image */
- height: 90vh;
- color: rgb(255, 255, 255);
+  height: 90vh;
+  color: rgb(255, 255, 255);
 }
 
-.image-signature{
+.image-signature {
   height: 50px;
 }
 
-.signature{
+.signature {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
 }
 
-
-
-.social-icons{
+.social-icons {
   margin: 0;
   padding: 0;
   background: #262626;
@@ -189,7 +172,7 @@
   transform: translate(-50%, -50%);
 
   position: relative;
-    top: 50px;
+  top: 50px;
 }
 
 .custom-icons li {
@@ -212,7 +195,7 @@
 }
 
 .custom-icons li a::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -236,17 +219,12 @@
   text-shadow: 0 0 5px #ffee10;
 }
 
-
-
-
-
-.skills{
+.skills {
   display: flex;
   flex-wrap: wrap;
-
 }
 
-.skill-item{
+.skill-item {
   width: calc(25% - 20px);
   height: 100px;
   margin: 10px;
@@ -255,16 +233,75 @@
   color: wheat;
   display: flex;
   flex-direction: column;
-
 }
 
-.icon{
+.icon {
   text-align: center;
   height: 70%;
 }
-.title-icon{
+.title-icon {
   text-align: center;
   height: 30%;
 }
+
+/* 
+Contsctus Form */
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-box {
+  display: flex;
+  margin: 2rem;
+}
+
+.contact-img-container {
+  height: 40px;
+  width: 40px;
+}
+
+.contact-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.contact-label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.image-card-container {
+  height: 100px;
+  width: 100%;
+}
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.item-card {
+  width: calc(33.33% - 10px);
+}
+
+
+
+
 
 
