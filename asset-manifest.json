@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.74e0fcf0.css",
+    "main.js": "/portfolio/static/js/main.3c1905f1.js",
+    "static/js/453.b2a32b0a.chunk.js": "/portfolio/static/js/453.b2a32b0a.chunk.js",
+    "static/media/imgYasindu.png": "/portfolio/static/media/imgYasindu.f13b4fc9a9702cea8f36.png",
+    "static/media/rusl.jpg": "/portfolio/static/media/rusl.46e8db0f65f95adf795b.jpg",
+    "static/media/esoft.png": "/portfolio/static/media/esoft.8e3fb39ad9d0e93070a0.png",
+    "static/media/rusls.jpg": "/portfolio/static/media/rusls.039908b22165be61bc10.jpg",
+    "static/media/contact.jpg": "/portfolio/static/media/contact.d4875287f5a67a16e6c9.jpg",
+    "static/media/phone-call.png": "/portfolio/static/media/phone-call.97b586b6a43f19518095.png",
+    "static/media/sms.png": "/portfolio/static/media/sms.f982a2212dbe5be923f0.png",
+    "static/media/location-pin.png": "/portfolio/static/media/location-pin.7721e078a2ee12238648.png",
+    "static/media/image.png": "/portfolio/static/media/image.22cb7920a34e365fc62c.png",
+    "static/media/signature.png": "/portfolio/static/media/signature.d14f405d68129dd65e0b.png",
+    "index.html": "/portfolio/index.html",
+    "main.74e0fcf0.css.map": "/portfolio/static/css/main.74e0fcf0.css.map",
+    "main.3c1905f1.js.map": "/portfolio/static/js/main.3c1905f1.js.map",
+    "453.b2a32b0a.chunk.js.map": "/portfolio/static/js/453.b2a32b0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74e0fcf0.css",
+    "static/js/main.3c1905f1.js"
+  ]
+}
