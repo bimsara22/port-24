@@ -1,0 +1,58 @@
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-box {
+    display: flex;
+    margin: 2rem;
+  }
+  
+  .contact-img-container {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .contact-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .contact-label {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  
+  .contact-methods {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .image-card-container {
+    height: 100px;
+    width: 100%;
+  }
+
+  .card-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .item-card {
+    width: calc(33.33% - 10px);
+  }
+  
+  .contact-title{
+    color: black;
+  }

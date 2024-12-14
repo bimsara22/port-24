@@ -3,6 +3,7 @@ import image from "../../Images/contact.jpg";
 import call from "../../Images/phone-call.png";
 import email from "../../Images/image.png";
 import address from "../../Images/location-pin.png";
+import './Contact.css';
 
 function Contactus() {
   const details = [
@@ -16,7 +17,7 @@ function Contactus() {
       <section className="contactus-section">
         <div className="container">
           <div className="contact-us">
-            <div className="message">
+            <div className="message-contact">
               <div className="image-container">
                 <img src={image} alt="image" className="image-contact" />
               </div>

@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import sign from "../../Images/signature.png";
-import man from "../../Images/man-image.jpg";
+import man from "../../Images/imgYasindu.png";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -29,55 +30,37 @@ function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">
-                About
-              </a>
+              <Link className="nav-link" to="/projets">
+                Projects
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#gallery">
-                Gallery
-              </a>
+            <Link className="nav-link" to="/skills">
+                SKills
+                </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <Link className="nav-link" to="/contact">
                 Contact
-              </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/education">
+                Education
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
 
       <div className="header-bg">
-        <ul className="icon-ul custom-icons">
-          <li className="icon-li">
-            <a href="#">
-              <i class="fab fa-edge"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fab fa-firefox"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fab fa-chrome"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fab fa-opera"></i>
-            </a>
-          </li>
-        </ul>
-
-
-        {/* <div className="image-contain">
-<img src={man} alt="yasindu" className="image-yasindu" />
-</div> */}
-
+        <div className="image-contain">
+          <img src={man} alt="yasindu" className="image-yasindu" />
+        </div>
 
         <div class="text-container">
+          <h1 className="my-name">Yasindu Bimsara</h1>
+
           <h1>
             <span class="prefix">I'm </span>
             <div class="message">
@@ -87,11 +70,60 @@ function Header() {
               <div class="word4">Software Enginner</div>
             </div>
           </h1>
+
+          <p className="description-title">
+            cannot provide a valid href, but still need the element to resemble
+            a link, use a button and change it with appropriate styles. Learn
+            more:
+            https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md{" "}
+          </p>
+
+          <div class="download">
+            <div class="center">
+              <button class="btn">
+                <svg
+                  width="180px"
+                  height="60px"
+                  viewBox="0 0 180 60"
+                  class="border"
+                >
+                  <polyline
+                    points="179,1 179,59 1,59 1,1 179,1"
+                    class="bg-line"
+                  />
+                  <polyline
+                    points="179,1 179,59 1,59 1,1 179,1"
+                    class="hl-line"
+                  />
+                </svg>
+                <span>Download CV</span>
+              </button>
+            </div>
+
+            <ul className="icon-ul custom-icons">
+              <li className="icon-li">
+                <a href="#">
+                  <i class="fab fa-edge"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-firefox"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-chrome"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-opera"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-
-    
-
       </div>
     </div>
   );

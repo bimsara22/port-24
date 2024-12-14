@@ -1,22 +1,23 @@
 import React from "react";
 import "./Education.css";
 import rusls from "../../Images/rusls.jpg";
+import esoft from '../../Images/esoft.png';
 
 const Education = () => {
   const educationDetails = [
     {
       image: rusls ,
-      degree: "Bachelor of Science in Computer Science",
-      institution: "XYZ University",
-      year: "2018 - 2022",
+      degree: "Bachelor of Science in Information Systems",
+      institution: "Rajarata University of Sri Lanka",
+      year: "2020 - 2024",
       description:
         "Focused on software engineering, algorithms, and data structures. Participated in various coding challenges and hackathons.",
     },
     {
-      image: rusls ,
-      degree: " Artificial Intelligence",
-      institution: "ABC Institute of Technology",
-      year: "2023 - Present",
+      image: esoft ,
+      degree: " Diploma in Information Technology",
+      institution: "Esoft Metro Campus",
+      year: "2019 - 2020",
       description:
         "Specializing in machine learning, deep learning, and natural language processing. Researching AI for automation in healthcare.",
     },
@@ -27,7 +28,7 @@ const Education = () => {
       {educationDetails.map((edu, index) => (
         <div className="education-card" key={index}>
           <div className="card-header">
-            <img src={rusls} alt="rusl" className="institution-image" />
+            <img src={edu.image} alt="rusl" className="institution-image" />
           </div>
           <div className="card-body">
             <h5>{edu.degree}</h5>
